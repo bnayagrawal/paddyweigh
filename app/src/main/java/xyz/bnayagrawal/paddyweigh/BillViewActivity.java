@@ -110,6 +110,8 @@ public class BillViewActivity extends AppCompatActivity {
             packetWeightList = "";
 
             people = entry.getValue();
+            if(people.getPacketCount() == 0)
+                continue;
             view = getLayoutInflater().inflate(R.layout.template_person_bill,null,false);
 
             txtBillPersonName = view.findViewById(R.id.txtBillPersonName);

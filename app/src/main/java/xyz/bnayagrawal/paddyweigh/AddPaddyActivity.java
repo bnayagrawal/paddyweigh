@@ -46,6 +46,7 @@ public class AddPaddyActivity extends AppCompatActivity implements DialogAddPers
     private ArrayAdapter<String> arrayAdapter;
     private HashMap<Long, People> peoples;
     private People selectedPeople;
+    private boolean weightListSaved = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -187,10 +188,31 @@ public class AddPaddyActivity extends AppCompatActivity implements DialogAddPers
         (findViewById(R.id.btnMakeBill)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String fileName = saveWeightList();
-                Intent intent = new Intent(getApplicationContext(),BillViewActivity.class);
-                intent.putExtra("FILE_NAME",fileName);
-                startActivity(intent);
+                if(peoples.size() == 0) {
+                    Toast.makeText(AddPaddyActivity.this, "Please add a person first!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                AlertDialog.Builder builder = new AlertDialog.Builder(AddPaddyActivity.this);
+
+                builder.setPositiveButton("MAKE BILL", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        String fileName = saveWeightList();
+                        weightListSaved = true;
+                        Intent intent = new Intent(getApplicationContext(),BillViewActivity.class);
+                        intent.putExtra("FILE_NAME",fileName);
+                        startActivity(intent);
+                    }
+                });
+                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int iad) {
+                        //Nothing to do...
+                    }
+                });
+
+                builder.setTitle("Make Bill");
+                builder.setMessage("Prepare Bill? You can edit this weight list by coming back from bill view.");
+                AlertDialog dialog = builder.create();
+                dialog.show();
             }
         });
     }
@@ -240,6 +262,11 @@ public class AddPaddyActivity extends AppCompatActivity implements DialogAddPers
     }
 
     protected void promptReturn() {
+        if(weightListSaved) {
+            AddPaddyActivity.super.onBackPressed();
+            overridePendingTransition(R.anim.slide_in,R.anim.slide_out);
+            return;
+        }
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
