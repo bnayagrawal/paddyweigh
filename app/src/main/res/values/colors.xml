@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chocolatePrimary">#9e4624</color>
+    <color name="chocolatePrimaryDark">#6f3119</color>
+    <color name="chocolateAccent">#9e4624</color>
+    <color name="chocolatePrimaryLight">#e8ae98</color>
+
+    <color name="lightBluePrimary">#03A9F4</color>
+    <color name="lightBluePrimaryDark">#0288D1</color>
+    <color name="lightBlueAccent">#03A9F4</color>
+    <color name="lightBlueLight">#96ddfe</color>
+
+    <color name="greenPrimary">#4CAF50</color>
+    <color name="greenPrimaryDark">#357a38</color>
+    <color name="greenAccent">#4CAF50</color>
+    <color name="greenLight">#b7dfb8</color>
+
+    <color name="orangePrimary">#FF9800</color>
+    <color name="orangePrimaryDark">#b36b00</color>
+    <color name="orangeAccent">#FF9800</color>
+    <color name="orangeLight">#ffd699</color>
+
+    <color name="blueGrayPrimary">#607D8B</color>
+    <color name="blueGrayPrimaryDark">#435761</color>
+    <color name="blueGrayAccent">#607D8B</color>
+    <color name="blueGrayLight">#becbd2</color>
+
+    <color name="darkIndigoPrimary">#353F65</color>
+    <color name="darkIndigoPrimaryDark">#252c46</color>
+    <color name="darkIndigoAccent">#353F65</color>
+    <color name="darkIndigoLight">#a1aace</color>
+
+    <color name="primaryTextLight">#000000</color>
+    <color name="statusBarLight">#F0F0F0</color>
+    <color name="secondaryTextLight">#616161</color>
+    <color name="hintTextLight">#717171</color>
+    <color name="dividerLight">#DCDCDC</color>
+    <color name="drawableTintLight">#757575</color>
+    <color name="layoutBackgroundLight">#DFDFDF</color>
+
+    <color name="rippleColor">#bdbdbd</color>
+</resources>

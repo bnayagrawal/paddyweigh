@@ -1,0 +1,19 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/editTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Person name"
+        android:paddingBottom="18dp"
+        android:textColorHint="@color/secondaryTextLight"
+        android:textColor="@color/primaryTextLight"
+        android:backgroundTint="?attr/colorAccent"
+        android:ems="10"
+        android:inputType="textPersonName" />
+</LinearLayout>

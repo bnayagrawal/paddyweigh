@@ -1,0 +1,147 @@
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cardBackgroundColor="@android:color/white"
+    android:elevation="0dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="01"
+        android:shrinkColumns="1">
+
+        <TableRow
+            android:id="@+id/dash_item"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+            android:background="@drawable/ripple_effect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/txtDashCirclePacketsCount"
+                android:layout_width="54dp"
+                android:layout_height="54dp"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/shape_circle"
+                android:gravity="center_vertical"
+                android:text="24"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:backgroundTint="@color/layoutBackgroundLight"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtDashPeoples"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:text="Heisenberg"
+                    android:textColor="@color/primaryTextLight"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp">
+
+                    <ImageView
+                        android:tint="@color/drawableTintLight"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/ic_people_black_18dp" />
+
+                    <TextView
+                        android:id="@+id/txtDashPeoplesCount"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:text="8 peoples"
+                        android:textColor="@color/secondaryTextLight" />
+
+                    <ImageView
+                        android:tint="@color/drawableTintLight"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/ic_spa_black_18dp" />
+
+                    <TextView
+                        android:id="@+id/txtDashPacketsCount"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="71 packets"
+                        android:textColor="@color/secondaryTextLight" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@color/dividerLight" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp">
+
+                    <ImageView
+                        android:tint="@color/drawableTintLight"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="8dp"
+                        android:src="@drawable/ic_schedule_black_18dp"/>
+
+                    <TextView
+                        android:id="@+id/txtDashDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="28 Jan 2017 16:24"
+                        android:textColor="@color/secondaryTextLight"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <View
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_column="0"
+                android:background="@color/dividerLight"/>
+        </TableRow>
+    </TableLayout>
+</android.support.v7.widget.CardView>

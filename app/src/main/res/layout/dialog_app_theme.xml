@@ -1,0 +1,256 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="12dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="12dp">
+
+    <LinearLayout
+        android:id="@+id/layoutColorListContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="1"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:text="Chocolate"
+                    android:textColor="@color/primaryTextLight"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_color_ring"
+                    android:backgroundTint="@color/chocolatePrimaryLight"
+                    android:backgroundTintMode="src_over">
+
+                    <LinearLayout
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="3dp"
+                        android:backgroundTint="@color/chocolatePrimary"
+                        android:background="@drawable/shape_color_circle">
+
+                        <ImageView
+                            android:id="@+id/imgColorChocolate"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="1dp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:text="Light Blue"
+                    android:textColor="@color/primaryTextLight"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_color_ring"
+                    android:backgroundTint="@color/lightBlueLight"
+                    android:backgroundTintMode="src_over">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/shape_color_circle"
+                        android:backgroundTint="@color/lightBluePrimary">
+
+                        <ImageView
+                            android:id="@+id/imgColorLightBlue"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="1dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:text="Medium Green"
+                    android:textColor="@color/primaryTextLight"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_color_ring"
+                    android:backgroundTint="@color/greenLight"
+                    android:backgroundTintMode="src_over">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/shape_color_circle"
+                        android:backgroundTint="@color/greenPrimary">
+
+                        <ImageView
+                            android:id="@+id/imgColorGreen"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="1dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:text="Light Orange"
+                    android:textColor="@color/primaryTextLight"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_color_ring"
+                    android:backgroundTint="@color/orangeLight"
+                    android:backgroundTintMode="src_over">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/shape_color_circle"
+                        android:backgroundTint="@color/orangePrimary">
+
+                        <ImageView
+                            android:id="@+id/imgColorOrange"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="1dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:text="Blue Grey"
+                    android:textColor="@color/primaryTextLight"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_color_ring"
+                    android:backgroundTint="@color/blueGrayLight"
+                    android:backgroundTintMode="src_over">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/shape_color_circle"
+                        android:backgroundTint="@color/blueGrayPrimary">
+
+                        <ImageView
+                            android:id="@+id/imgColorBlueGrey"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="1dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_gravity="center_vertical"
+                    android:text="Dark Indigo"
+                    android:textColor="@color/primaryTextLight"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_color_ring"
+                    android:backgroundTint="@color/darkIndigoLight"
+                    android:backgroundTintMode="src_over">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="3dp"
+                        android:background="@drawable/shape_color_circle"
+                        android:backgroundTint="@color/darkIndigoPrimary">
+
+                        <ImageView
+                            android:id="@+id/imgColorDarkIndigo"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="1dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

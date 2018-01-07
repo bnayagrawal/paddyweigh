@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">paddyweigh</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_add_paddy">AddPaddyActivity</string>
+    <string name="title_activity_bill_view">BillViewActivity</string>
+    <string name="preference_file_key">xyz.bnayagrawal.paddyweigh.packetPricing</string>
+    <string name="preference_theme_file">xyz.bnayagrawal.paddyweigh.appTheme</string>
+</resources>

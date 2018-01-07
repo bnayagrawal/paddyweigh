@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/chocolatePrimary</item>
+        <item name="colorPrimaryDark">@color/chocolatePrimaryDark</item>
+        <item name="colorAccent">@color/chocolateAccent</item>
+    </style>
+
+    <style name="AppThemeLightBlue" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/lightBluePrimary</item>
+        <item name="colorPrimaryDark">@color/lightBluePrimaryDark</item>
+        <item name="colorAccent">@color/lightBlueAccent</item>
+    </style>
+
+    <style name="AppThemeGreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/greenPrimary</item>
+        <item name="colorPrimaryDark">@color/greenPrimaryDark</item>
+        <item name="colorAccent">@color/greenAccent</item>
+    </style>
+
+    <style name="AppThemeOrange" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/orangePrimary</item>
+        <item name="colorPrimaryDark">@color/orangePrimaryDark</item>
+        <item name="colorAccent">@color/orangeAccent</item>
+    </style>
+
+    <style name="AppThemeBlueGrey" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blueGrayPrimary</item>
+        <item name="colorPrimaryDark">@color/blueGrayPrimaryDark</item>
+        <item name="colorAccent">@color/blueGrayAccent</item>
+    </style>
+
+    <style name="AppThemeDarkIndigo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/darkIndigoPrimary</item>
+        <item name="colorPrimaryDark">@color/darkIndigoPrimaryDark</item>
+        <item name="colorAccent">@color/darkIndigoAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Light" parent="AppTheme">
+        <item name="android:statusBarColor">@color/layoutBackgroundLight</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+    </style>
+
+    <style name="AppTheme.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar" />
+    <style name="AppTheme.DarkActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
