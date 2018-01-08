@@ -31,30 +31,32 @@
                     android:textColor="@color/primaryTextLight"
                     android:textSize="16sp" />
 
-                <LinearLayout
+                <FrameLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/shape_color_ring"
-                    android:backgroundTint="@color/chocolatePrimaryLight"
-                    android:backgroundTintMode="src_over">
+                    xmlns:android="http://schemas.android.com/apk/res/android">
 
-                    <LinearLayout
+                    <View
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:background="@drawable/shape_color_circle"
+                        android:backgroundTint="@color/chocolatePrimaryLight"
+                        android:backgroundTintMode="src_over"/>
+
+                    <View
+                        android:layout_gravity="center_vertical|center_horizontal"
                         android:layout_width="28dp"
                         android:layout_height="28dp"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginTop="3dp"
                         android:backgroundTint="@color/chocolatePrimary"
-                        android:background="@drawable/shape_color_circle">
+                        android:background="@drawable/shape_color_circle"/>
 
-                        <ImageView
-                            android:id="@+id/imgColorChocolate"
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:layout_gravity="center_vertical"
-                            android:layout_marginLeft="1dp"
-                            />
-                    </LinearLayout>
-                </LinearLayout>
+                    <ImageView
+                        android:id="@+id/imgColorChocolate"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"/>
+                </FrameLayout>
             </TableRow>
 
             <TableRow
@@ -71,29 +73,32 @@
                     android:textColor="@color/primaryTextLight"
                     android:textSize="16sp" />
 
-                <LinearLayout
+                <FrameLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/shape_color_ring"
-                    android:backgroundTint="@color/lightBlueLight"
-                    android:backgroundTintMode="src_over">
+                    xmlns:android="http://schemas.android.com/apk/res/android">
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginTop="3dp"
+                    <View
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
                         android:background="@drawable/shape_color_circle"
-                        android:backgroundTint="@color/lightBluePrimary">
+                        android:backgroundTint="@color/lightBlueLight"
+                        android:backgroundTintMode="src_over"/>
 
-                        <ImageView
-                            android:id="@+id/imgColorLightBlue"
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:layout_gravity="center_vertical"
-                            android:layout_marginLeft="1dp"/>
-                    </LinearLayout>
-                </LinearLayout>
+                    <View
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:backgroundTint="@color/lightBluePrimary"
+                        android:background="@drawable/shape_color_circle"/>
+
+                    <ImageView
+                        android:id="@+id/imgColorLightBlue"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"/>
+                </FrameLayout>
             </TableRow>
 
             <TableRow
@@ -110,29 +115,32 @@
                     android:textColor="@color/primaryTextLight"
                     android:textSize="16sp" />
 
-                <LinearLayout
+                <FrameLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/shape_color_ring"
-                    android:backgroundTint="@color/greenLight"
-                    android:backgroundTintMode="src_over">
+                    xmlns:android="http://schemas.android.com/apk/res/android">
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginTop="3dp"
+                    <View
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
                         android:background="@drawable/shape_color_circle"
-                        android:backgroundTint="@color/greenPrimary">
+                        android:backgroundTint="@color/greenLight"
+                        android:backgroundTintMode="src_over"/>
 
-                        <ImageView
-                            android:id="@+id/imgColorGreen"
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:layout_gravity="center_vertical"
-                            android:layout_marginLeft="1dp"/>
-                    </LinearLayout>
-                </LinearLayout>
+                    <View
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:backgroundTint="@color/greenPrimary"
+                        android:background="@drawable/shape_color_circle"/>
+
+                    <ImageView
+                        android:id="@+id/imgColorGreen"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"/>
+                </FrameLayout>
             </TableRow>
 
             <TableRow
@@ -149,29 +157,32 @@
                     android:textColor="@color/primaryTextLight"
                     android:textSize="16sp" />
 
-                <LinearLayout
+                <FrameLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/shape_color_ring"
-                    android:backgroundTint="@color/orangeLight"
-                    android:backgroundTintMode="src_over">
+                    xmlns:android="http://schemas.android.com/apk/res/android">
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginTop="3dp"
+                    <View
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
                         android:background="@drawable/shape_color_circle"
-                        android:backgroundTint="@color/orangePrimary">
+                        android:backgroundTint="@color/orangeLight"
+                        android:backgroundTintMode="src_over"/>
 
-                        <ImageView
-                            android:id="@+id/imgColorOrange"
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:layout_gravity="center_vertical"
-                            android:layout_marginLeft="1dp"/>
-                    </LinearLayout>
-                </LinearLayout>
+                    <View
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:backgroundTint="@color/orangePrimary"
+                        android:background="@drawable/shape_color_circle"/>
+
+                    <ImageView
+                        android:id="@+id/imgColorOrange"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"/>
+                </FrameLayout>
             </TableRow>
 
             <TableRow
@@ -188,29 +199,32 @@
                     android:textColor="@color/primaryTextLight"
                     android:textSize="16sp" />
 
-                <LinearLayout
+                <FrameLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/shape_color_ring"
-                    android:backgroundTint="@color/blueGrayLight"
-                    android:backgroundTintMode="src_over">
+                    xmlns:android="http://schemas.android.com/apk/res/android">
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginTop="3dp"
+                    <View
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
                         android:background="@drawable/shape_color_circle"
-                        android:backgroundTint="@color/blueGrayPrimary">
+                        android:backgroundTint="@color/blueGrayLight"
+                        android:backgroundTintMode="src_over"/>
 
-                        <ImageView
-                            android:id="@+id/imgColorBlueGrey"
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:layout_gravity="center_vertical"
-                            android:layout_marginLeft="1dp"/>
-                    </LinearLayout>
-                </LinearLayout>
+                    <View
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:backgroundTint="@color/blueGrayPrimary"
+                        android:background="@drawable/shape_color_circle"/>
+
+                    <ImageView
+                        android:id="@+id/imgColorBlueGrey"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"/>
+                </FrameLayout>
             </TableRow>
 
             <TableRow
@@ -227,29 +241,32 @@
                     android:textColor="@color/primaryTextLight"
                     android:textSize="16sp" />
 
-                <LinearLayout
+                <FrameLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/shape_color_ring"
-                    android:backgroundTint="@color/darkIndigoLight"
-                    android:backgroundTintMode="src_over">
+                    xmlns:android="http://schemas.android.com/apk/res/android">
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="3dp"
-                        android:layout_marginTop="3dp"
+                    <View
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
                         android:background="@drawable/shape_color_circle"
-                        android:backgroundTint="@color/darkIndigoPrimary">
+                        android:backgroundTint="@color/darkIndigoLight"
+                        android:backgroundTintMode="src_over"/>
 
-                        <ImageView
-                            android:id="@+id/imgColorDarkIndigo"
-                            android:layout_width="24dp"
-                            android:layout_height="24dp"
-                            android:layout_gravity="center_vertical"
-                            android:layout_marginLeft="1dp"/>
-                    </LinearLayout>
-                </LinearLayout>
+                    <View
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:backgroundTint="@color/darkIndigoPrimary"
+                        android:background="@drawable/shape_color_circle"/>
+
+                    <ImageView
+                        android:id="@+id/imgColorDarkIndigo"
+                        android:layout_gravity="center_horizontal|center_vertical"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"/>
+                </FrameLayout>
             </TableRow>
         </TableLayout>
     </LinearLayout>
